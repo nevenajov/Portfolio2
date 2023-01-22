@@ -3,7 +3,9 @@ body {
     box-sizing: border-box;
     
 }
-
+a {
+  color:rgb(90, 89, 89);
+}
 
 
 nav li{
@@ -14,7 +16,6 @@ nav li{
     font-size: medium;
     font-weight: bold;
     font-family: "Helvetica";
-    color: rgb(60, 59, 59);
     text-decoration: none;
     
       }
@@ -26,7 +27,8 @@ ul{
     justify-content: flex-end;
     margin: 0;
     padding: 0;
-    color: rgb(90, 89, 89);
+   
+  
 }
   a:visited {
     color: rgb(90, 89, 89);

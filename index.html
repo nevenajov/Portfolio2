@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevena Jovanovic</title>
+
+    <!--kopplar ihop html fil med css fil -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Länk som gör att min linkedin.logga kan hämtas-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+    <!--Navbar med navigation till olika delar av min sida. Portfolio sidan fungerar som "home". Jag har gett 
+    hela navbaren en klass för att kunna anorpa enbart den i css. Har därefter lagt de olika html-filerna i egna klasser
+    i en lista som länkar till respektive html fil på sidan. Varje html fil har fått egen egen klass för att kunna 
+    anropas till specifikt vid behov. -->
+
+    <nav class="nav">
+        <ul>
+            <li><a class="active" href="index.html">Portfolio</a></li>
+            <li><a class="projects" href="projects.html">Projects</a></li>
+            <li><a class="about" href="about.html">About</a></li>
+            <li><a class="resumé" href="resumé.html">Resumé</a></li>
+        </ul>
+    </nav>
+
+
+    <!--Detta är min header. h1 och h2 har jag valt att ha i samma div då de ska kunna anropas samtidigt 
+        vid styling i css-->
+
+    <header>
+    <div class="text1">
+        <h1>Hi, I'm Nevena</h1> 
+
+        <!--i texten har jag valt att länka till chas academy. target attribut tillagd för att länken till 
+        chas academy ska öppnas i en ny flik-->
+
+
+      <h2>UX-Design student @ <a href="https://chasacademy.se/" target="_blank">Chas Academy</a> 📍Stockholm </h2>
+    </div>
+
+      <div class="text2" h3>I'm passionate about creating meaningful, accessiable and user focused digital 
+        products that everyone can enyoy.</h3>
+       
+      </div>
+
+      <!--ger p-texten en klass för att kunna anorpa specifikt till detta stycke.-->      
+      <p class="paragraph">Connect with me on <strong>jovanovic.nnevena@gmail.com </strong> 📩 or find me on <strong>Linkedin</strong></p>
+
+    </header>
+    
+    <!--På portfolions startsida har jag valt att lägga till boxar som ska innehålla projektcontent. Samtliga 
+    boxar placeras i en div och ges klassen container. Lägger till 4 divar och namnger de box. Att boxarna
+    ligger i en klass gör det möjligt att anropa klassen i css och tillskriva den egenskaper. I varje box finns ett 
+    img attribut för att kunna länka till bilder. Varje bild har ett alt atribut med beskrivande text. höjd och
+    bredd specificeras efter den storlek boxen kommer att ha.-->
+
+<div class="container">
+    <div class="box"><img src="flixbild.png" alt="picture of flixgreen prototyp" height="540" width="540"></div>
+    <div class="box"><img src="mooveyou.png" alt="picture of moove you protptyp" height="540" width="540"></div>
+    <div class="box"><img src="soon.png" alt="picture of text coming soon" height="540" width="540"></div>
+    <div class="box"><img src="comingsoon.png" alt="picture of text coming soon" height="540" width="540"></div>
+</div>
+       
+    <footer>
+        <!--hr är en slags linjal som definierar en ny sektion i sidan. jag har valt att placera denna
+        i footern-->
+    <hr></hr>
+
+    <!---a-atruibutet har används för att länka till min profil. anrporar target blank i länken till min linkedin profil för att linkedin ska öppnas 
+    i en ny flik. både länk och copy right har placerats innanför footern. -->
+        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/nevena-jovanovic-82aaaa20b/" target="_blank"></a>
+      <p class="copyright">Copyright © Nevena Jovanovic 2023</p>
+
+    </footer>
+
+
+
+
+
+</body>
+
+
+</html>
+

@@ -1,0 +1,292 @@
+body {
+    background-color: #fefefe;
+    box-sizing: border-box;
+    
+}
+
+
+
+nav li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin:10px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: "Helvetica";
+    color: rgb(60, 59, 59);
+    text-decoration: none;
+    
+      }
+
+
+ul{
+
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+  a:visited {
+    color: rgb(90, 89, 89);
+  }
+
+  /*style vid hover över länk*/
+   li a.hover  {
+      color: #e1ae5e;
+    }
+ 
+    a.active {
+        color: #e1ae5e;
+    
+      }
+
+    
+    
+.text1 {
+    font-size: x-large;
+    margin-top: 100px;
+    justify-content: center;
+    color: rgb(90, 89, 89);
+    text-align: center;
+    font-family: "Avenir";
+    
+    
+    /*vill inte att Chas Academy länken i h2 ska vara understruken*/
+}
+a:link {
+    text-decoration: none!important;
+    
+      }
+
+    a:hover {
+        color:#e1ae5e;
+
+    }
+
+    .text2
+    {
+    
+       justify-content: center;
+       font-size: larger;
+        color: rgb(60, 59, 59);
+        text-align: center;
+        font-family: "Avenir";
+    
+
+    }
+
+
+.paragraph {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: large;
+    color: rgb(90, 89, 89);
+    font-family:"Avenir";
+    
+}
+
+
+
+    .container {
+
+
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    }
+
+
+    .box {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 540px;
+    height: 540px;
+    background: #d6d6c6;
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    
+    
+    
+
+    }
+
+    .box img {
+       object-fit: cover;
+    }
+
+    
+
+    footer
+    {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        display:inline-block;
+       
+    }
+
+
+    .fa-linkedin {
+        align-items: center;
+        justify-content: center;
+        border-style:solid ;
+        border-radius: 3px;
+        padding: 2px 4px;
+        color: #96b6e6;
+    
+      }
+
+      .copyright
+      {
+         
+         color: rgb(90, 89, 89);
+         font-size: small;
+         font-family:"Avenir";
+
+      }
+
+    
+      
+
+      .jag {
+        width: 500px;
+        height: 520px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding: 5px;
+
+     
+    
+
+      }
+
+      .intro {
+        color: rgb(103, 101, 101);
+        font-family: "avenir";
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        
+    
+      }
+
+      .info {
+        color: rgb(103, 101, 101);
+        font-family: "avenir";
+        font-size: medium;
+        font-weight: lighter;
+        margin: auto;
+        width: 50%;
+        padding-bottom: 20px;
+
+      }
+
+      .fun
+      {
+        margin: auto;
+        width: 50%;
+        font-family: "Avenir";
+        font-size: large;
+        color: rgb(103, 101, 101);
+      }
+     
+      .facts
+      {
+        margin: auto;
+        width: 50%;
+        font-family: "Avenir";
+        font-size: medium;
+        color: rgb(103, 101, 101);
+        margin-bottom: 50px;
+      }
+
+
+    .container2 {
+
+
+        display: flex;
+        justify-content:center;
+        flex-wrap:wrap;
+    
+        }
+    
+    
+        .box2 {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 350px;
+        background: #d6d6c6;
+        float: left;
+        margin: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 2px;
+
+        
+        
+        
+    
+        }
+
+
+
+
+
+    @media only screen and (max-width: 576px){
+    .box{
+        height: 400px;
+        width: 400px;
+    }
+    img{
+        height: 400px;
+        width: 400px;
+    }
+
+    ul{
+    justify-content: center;
+    }
+
+
+    .text1{
+            font-size: large;
+            }
+
+    .text2{
+            font-size: medium;
+                }
+
+    .paragraph {
+        font-size: small;
+            }
+    .info {
+        font-size: medium;
+        width: 70%;
+            }
+
+     .fun {
+                font-size: medium;
+                width: 70%;
+                    }
+    .facts {
+    font-size: medium;
+    width: 70%;
+        }
+
+
+
+
+}

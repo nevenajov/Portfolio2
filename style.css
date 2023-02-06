@@ -75,6 +75,7 @@ a:link {
         color: rgb(60, 59, 59);
         text-align: center;
         font-family: "Avenir";
+        margin-bottom: 80px;
     
 
     }
@@ -83,7 +84,7 @@ a:link {
 .paragraph {
     margin-bottom: 100px;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     color: rgb(90, 89, 89);
     font-family:"Avenir";
     
@@ -238,29 +239,136 @@ a:link {
         box-sizing: border-box;
         overflow: hidden;
         border-radius: 2px;
-
-        
-        
-        
     
         }
 
 
+        .connect {
+        
+          margin-top: 100px;
+          font-size: x-large;
+          font-family: "Avenir";
+          color: rgb(87, 87, 87);
+          text-align: center;
+          font-weight: bold;
 
 
+        }
+        
 
-    @media only screen and (max-width: 576px){
+        .message{
+          margin: auto;
+          margin-top: 50px;
+          display: block;
+          
+       
+        
+        }
+
+        textarea:focus, input:focus{
+          outline: none;
+      }
+
+
+        textarea {
+          font-family: "Avenir";
+          font-size: medium;
+          color: rgb(87, 87, 87);
+          resize: none;
+          border-color: #c3c2c2;
+          
+         }
+
+  
+        
+  
+        .yourname
+        {
+    
+          
+          display: block;
+          margin: auto;
+          height: 40px;
+          width: 635px;
+          font-family: "Avenir";
+          font-size: medium;
+        
+         
+        }
+
+        .youremail {
+      
+        
+          display: flex;
+          margin: auto;
+          height: 40px;
+          width: 635px;
+          font-family:  "Avenir";
+          font-size: medium;
+        
+        }
+
+        
+
+        form{
+          display: block;
+        }
+
+        .send
+        {
+          margin-top: 10px;
+          margin-bottom: 30px;
+          height: 40px;
+          width: 642px;
+          background-color: #757171;
+          border-radius: 5px;
+          border-style: hidden;
+          font-family: "Avenir";
+          font-size: medium;
+          color: rgb(255, 255, 255);
+          margin: auto;
+          display: block;
+
+        }
+
+        nav i {
+          font-size: 20px;
+          cursor: pointer;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 4%;
+          left: 8%;
+        }
+
+      
+  
+
+      
+/*brytpunkt för responsivitet */
+
+    
+    @media only screen and (max-width: 400px){
     .box{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
     img{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
+
 
     ul{
     justify-content: center;
+  
+  
+    }
+
+    nav li{
+      font-size: small;
+      margin:0%;
+      text-align: center;
+    
     }
 
 
@@ -269,7 +377,7 @@ a:link {
             }
 
     .text2{
-            font-size: medium;
+            font-size: large;
                 }
 
     .paragraph {
@@ -289,7 +397,49 @@ a:link {
     width: 70%;
         }
 
+    .jag{
+          height: 300px;
+          width: 300px;
+      }
+
+      .box2{
+        height: 300px;
+        width: 300px;
+    }
+
+    .send
+    {
+      width: 83%;
+    }
+
+    .message
+    {
+      width: 80%
+    }
+
+    .youremail
+    {
+      width: 80%
+    }
+
+    .yourname
+    {
+      width: 80%
+    }
+
+    
+
+    
+
+
 
 
 
 }
+
+  
+
+
+
+
+

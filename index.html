@@ -8,33 +8,51 @@
 
     <!--kopplar ihop html fil med css fil -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 
     <!--Länk som gör att min linkedin.logga kan hämtas-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
 </head>
 <body>
+
+
+
 
     <!--Navbar med navigation till olika delar av min sida. Portfolio sidan fungerar som "home". Jag har gett 
     hela navbaren en klass för att kunna anorpa enbart den i css. Har därefter lagt de olika html-filerna i egna klasser
     i en lista som länkar till respektive html fil på sidan. Varje html fil har fått egen egen klass för att kunna 
     anropas till specifikt vid behov. -->
 
+
     <nav class="nav">
         <ul>
             <li><a class="active" href="index.html">Portfolio</a></li>
-            <li><a class="projects" href="projects.html">Projects</a></li>
             <li><a class="about" href="about.html">About</a></li>
             <li><a class="resumé" href="resumé.html">Resumé</a></li>
+            <li><a class="contact" href="contact.html">Contact</a></li>
+            <i class="bi bi-brightness-high-fill" id="toggleDark" alt="klickbar ikon för darkmode"></i>
+            <!--för ikonen ovan finns en alt-text som beskriver bilden i enlighet med WCAG kriteritet 1.1.1-->
+            
+            
+             
+             
+
+          
         </ul>
     </nav>
+
+    
+    
 
 
     <!--Detta är min header. h1 och h2 har jag valt att ha i samma div då de ska kunna anropas samtidigt 
         vid styling i css-->
 
     <header>
+    
     <div class="text1">
         <h1>Hi, I'm Nevena</h1> 
 
@@ -50,9 +68,6 @@
        
       </div>
 
-      <!--ger p-texten en klass för att kunna anorpa specifikt till detta stycke.-->      
-      <p class="paragraph">Connect with me on <strong>jovanovic.nnevena@gmail.com </strong> 📩 or find me on <strong>Linkedin</strong></p>
-
     </header>
     
     <!--På portfolions startsida har jag valt att lägga till boxar som ska innehålla projektcontent. Samtliga 
@@ -60,6 +75,8 @@
     ligger i en klass gör det möjligt att anropa klassen i css och tillskriva den egenskaper. I varje box finns ett 
     img attribut för att kunna länka till bilder. Varje bild har ett alt atribut med beskrivande text. höjd och
     bredd specificeras efter den storlek boxen kommer att ha.-->
+
+    <!--för samtliga bilder finns en alt-text som beskriver bilden i enlighet med WCAG kriteritet 1.1.1-->
 
 <div class="container">
     <div class="box"><img src="flixbild.png" alt="picture of flixgreen prototyp" height="540" width="540"></div>
@@ -79,8 +96,8 @@
       <p class="copyright">Copyright © Nevena Jovanovic 2023</p>
 
     </footer>
-
-
+   
+    
 
 
 
